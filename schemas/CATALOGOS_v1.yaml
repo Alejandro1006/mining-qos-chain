@@ -1,0 +1,12 @@
+modalities: [ SUMA_ALZADA, PRECIO_UNITARIO, T&M, MSA_CONVENIO, ADMIN_DELEGADA ]
+units:
+  - { code: "HH",  description: "Horas-hombre", scale: 100 }
+  - { code: "eqh", description: "Equipo-hora", scale: 10 }
+  - { code: "m",   description: "Metro lineal", scale: 1 }
+  - { code: "m3",  description: "Metro cúbico", scale: 1 }
+  - { code: "t",   description: "Tonelada", scale: 1 }
+ncr_severity: [ MENOR, MAYOR ]
+states:
+  ot:        [ REGISTRADA, ENVIADA, ACEPTADA, RECHAZADA ]
+  medicion:  [ PENDIENTE, APROBADA, RECHAZADA ]
+  vo:        [ PENDIENTE, APROB_CLIENTE, APROB_AUDITOR, APROBADA, RECHAZADA ]

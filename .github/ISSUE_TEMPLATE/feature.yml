@@ -1,0 +1,11 @@
+name: Feature
+labels: ["feature"]
+body:
+  - type: input
+    id: objetivo
+    attributes: { label: "Objetivo", placeholder: "¿Qué valor aporta?" }
+    validations: { required: true }
+  - type: textarea
+    id: criterios
+    attributes: { label: "Criterios de aceptación (DoD)", description: "Bullets o Given/When/Then" }
+    validations: { required: true }
